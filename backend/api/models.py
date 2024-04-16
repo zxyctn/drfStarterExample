@@ -1,9 +1,9 @@
 from django.db import models
 
 BRAND_CHOICES = [
-	("mercedes-benz", "Mercedes-Benz"),
-	("bmw", "BMW"),
-	("audi", "Audi"),
+	("Mercedes-Benz", "Mercedes-Benz"),
+	("BMW", "BMW"),
+	("Audi", "Audi"),
 ]
 
 
