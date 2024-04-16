@@ -1,38 +1,21 @@
-# create-svelte
+# Frontend
+This project requires NodeJS version later than **18.12** and NPM version later than **9.5.0**
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Installation
+ Dependencies can be installed via:
 
-## Creating a project
+    npm install
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Running
+To run the server in development mode, run the following script:
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+    npm run dev
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+By default, Vite server for the SvelteKit project will be run at the `http://127.0.0.1:5173/`
 
 ## Building
+To build and run the project, run the following scripts:
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+    npm run build
+    npm run preview
+By default, Vite server for the built SvelteKit project will be run at the `http://127.0.0.1:4173/`
