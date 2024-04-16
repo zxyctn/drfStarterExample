@@ -32,4 +32,4 @@ By default, Django server will be run at the `http://127.0.0.1:8000/`
 After navigating to `http://127.0.0.1:8000/` address, via the form at the bottom of the page data can be created to populate the database. For this example, car models will be created with brand, model and manufacture year. The structure of data is already presented above the form as JSON for the available data.
 
 # Frontend
-Please refer to the `README` file in `frontend` directory for the guide to build the UI of the project.
+Please refer to the [README](https://github.com/zxyctn/drfStarterExample/blob/main/frontend/README.md) file in `frontend` directory for the guide to build the UI of the project.
