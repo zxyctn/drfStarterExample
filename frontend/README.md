@@ -1,5 +1,5 @@
 # Frontend
-This project requires NodeJS version later than **18.12** and NPM version later than **9.5.0**
+This project requires NodeJS version later than **20** and NPM version later than **9.5.0**
 
 ## Installation
  Dependencies can be installed via:
